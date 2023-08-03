@@ -1,0 +1,122 @@
+h1 {
+  font-family: "Caprasimo";
+  font-size: 80px;
+  padding: 0px 0px 50px 0px;
+  color: #e18ed4;
+  text-shadow: 2px 0 0 white, 0 2px 0 white, -2px 0 0 white, 0 -2px 0 white;
+}
+
+input::placeholder {
+  opacity: 0.5;
+  color: #e18ed4;
+  font-size: 18px;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+
+@media screen and (max-width: 885px) {
+  h1 {
+    font-family: "Caprasimo";
+    font-size: 70px;
+    padding: 0px 0px 50px 0px;
+    color: #e18ed4;
+    text-shadow: 2px 0 0 white, 0 2px 0 white, -2px 0 0 white, 0 -2px 0 white;
+  }
+
+  button {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  h1 {
+    font-family: "Caprasimo";
+    font-size: 60px;
+    padding: 0px 0px 50px 0px;
+    color: #e18ed4;
+    text-shadow: 2px 0 0 white, 0 2px 0 white, -2px 0 0 white, 0 -2px 0 white;
+  }
+
+  input::placeholder {
+    opacity: 0.5;
+    color: #e18ed4;
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  h1 {
+    font-family: "Caprasimo";
+    font-size: 55px;
+    padding: 0px 0px 50px 0px;
+    color: #e18ed4;
+    text-shadow: 2px 0 0 white, 0 2px 0 white, -2px 0 0 white, 0 -2px 0 white;
+  }
+
+  button {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  h1 {
+    font-family: "Caprasimo";
+    font-size: 50px;
+    padding: 0px 0px 50px 0px;
+    color: #e18ed4;
+    text-shadow: 2px 0 0 white, 0 2px 0 white, -2px 0 0 white, 0 -2px 0 white;
+  }
+
+  button {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  h1 {
+    font-family: "Caprasimo";
+    font-size: 46px;
+    padding: 0px 0px 50px 0px;
+    color: #e18ed4;
+    text-shadow: 2px 0 0 white, 0 2px 0 white, -2px 0 0 white, 0 -2px 0 white;
+  }
+
+  button {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    width: 100%;
+    font-family: "Caprasimo";
+    font-size: 42px;
+    padding: 0px 0px 50px 0px;
+    color: #e18ed4;
+    text-shadow: 2px 0 0 white, 0 2px 0 white, -2px 0 0 white, 0 -2px 0 white;
+  }
+
+  button {
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+  }
+}

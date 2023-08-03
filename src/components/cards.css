@@ -1,0 +1,36 @@
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Caprasimo";
+  font-size: 40px;
+  margin: 30px 0px 30px 0px;
+  color: #e18ed4;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Borel";
+  font-size: 28px;
+  color: #e18ed4;
+}
+
+.card-hover {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-hover:hover {
+  cursor: grab;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 576px) {
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Caprasimo";
+    font-size: 30px;
+    margin: 30px 0px 30px 0px;
+    color: #e18ed4;
+  }
+}
